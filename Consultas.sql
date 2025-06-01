@@ -25,7 +25,8 @@ SELECT
 FROM abrigo a
 JOIN ocupante o ON a.id_abrigo = o.id_abrigo
 GROUP BY a.id_abrigo, a.nome, a.capacidade
-HAVING (COUNT(o.id_ocupante) / a.capacidade) > 0.5;
+HAVING (COUNT(o.id_ocupante) / a.capacidade) > 0.1
+
 
 -- Consulta 4: Detalhes dos ocupantes e recursos do abrigo mais cheio (com subquery)
 SELECT 

@@ -214,6 +214,25 @@ EXEC inserir_ocupante(2, 'Maria Souza', 29, 'Feminino', 1);
 EXEC inserir_ocupante(3, 'Carlos Dias', 40, 'Masculino', 2);
 EXEC inserir_ocupante(4, 'Ana Lima', 25, 'Feminino', 4);
 EXEC inserir_ocupante(5, 'Rafael Costa', 50, 'Masculino', 5);
+EXEC inserir_ocupante(6, 'Lucas Nogueira', 35, 'Masculino', 1);
+EXEC inserir_ocupante(7, 'Juliana Ramos', 22, 'Feminino', 1);
+EXEC inserir_ocupante(8, 'Paulo Oliveira', 31, 'Masculino', 1);
+EXEC inserir_ocupante(9, 'Larissa Silva', 26, 'Feminino', 1);
+EXEC inserir_ocupante(10, 'Marcos Lima', 45, 'Masculino', 1);
+EXEC inserir_ocupante(11, 'Fernanda Dias', 38, 'Feminino', 1);
+EXEC inserir_ocupante(12, 'Eduardo Pires', 29, 'Masculino', 1);
+EXEC inserir_ocupante(13, 'Camila Sousa', 19, 'Feminino', 1);
+EXEC inserir_ocupante(14, 'Daniel Rocha', 60, 'Masculino', 1);
+EXEC inserir_ocupante(15, 'Priscila Torres', 28, 'Feminino', 1);
+EXEC inserir_ocupante(16, 'Thiago Melo', 27, 'Masculino', 1);
+EXEC inserir_ocupante(17, 'Rita Lopes', 41, 'Feminino', 1);
+
+
+EXEC inserir_estoque(1, 1, 500);
+EXEC inserir_estoque(1, 2, 100);
+EXEC inserir_estoque(2, 3, 50);
+EXEC inserir_estoque(4, 4, 300);
+EXEC inserir_estoque(5, 5, 70);
 
 
 COMMIT;
